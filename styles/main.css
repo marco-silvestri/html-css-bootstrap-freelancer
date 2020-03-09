@@ -1,10 +1,6 @@
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0px;
-  background-color: #2b3e50;
-}
+/* COMMON STYLES */
 
-nav a {
+a {
   color: #FFF;
 }
 
@@ -18,6 +14,64 @@ h2 {
   text-align: center;
 }
 
+/* Utilites */
+
+.wrapper-75-w {
+  width: 75%;
+}
+
+.wrapper-w-30 {
+  width: 30%;
+  margin: auto;
+}
+
+/* Button Styles */
+
+.btn-default-transparent {
+  background-color: transparent;
+  color: #FFF;
+}
+
+.btn-default-green {
+  background-color: #29b297;
+  color: #FFF;
+}
+
+.btn-round {
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0px;
+  background-color: #2b3e50;
+  text-transform: uppercase;
+}
+
+/* SEPARATOR STYLES */
+
+.separator-line {
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.separator-line-white {
+  background-color: #FFF;
+}
+
+.separator-line-dark {
+  background-color: #333;
+}
+
+/* Typography */
+
 .jumbotron,
 #about {
   color: #FFF;
@@ -28,24 +82,37 @@ h2 {
   color: #333;
 }
 
-.wrapper-85-w {
-  width: 75%;
+#portfolio {
+  text-align: center;
 }
 
+#social,
+#copyright,
 .jumbotron {
+  color: #FFF;
   text-align: center;
+}
+
+#about p {
+  color: #FFF;
+}
+
+.autoref-link {
+  color: #2d908a;
+}
+
+/* Jumbotron Styles */
+
+.jumbotron {
   text-transform: uppercase;
   background-color: #29b297;
-  color: #FFF;
 }
 
 .jumbotron img {
   max-width: 300px;
 }
 
-#portfolio {
-  text-align: center;
-}
+/* Portfolio + About Styles */
 
 #portfolio img {
   width: 350px;
@@ -62,19 +129,7 @@ h2 {
   background-color: #29b297;
 }
 
-#about p {
-  color: #FFF;
-}
-
-.btn-default-transparent {
-  background-color: transparent;
-  color: #FFF;
-}
-
-.btn-default-green {
-  background-color: #29b297;
-  color: #FFF;
-}
+/* Form Styles */
 
 .form-control {
   box-shadow: none;
@@ -88,13 +143,15 @@ textarea#message {
   border-radius: 0px;
 }
 
-#social,
-#copyright {
-  color: #FFF;
-}
+/* FOOTER Styles */
 
 #social {
   background-color: #38556e;
+}
+
+#social li {
+  list-style: none;
+  display: inline-block;
 }
 
 #copyright {
