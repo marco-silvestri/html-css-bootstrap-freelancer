@@ -54,6 +54,15 @@ h2 {
   text-transform: uppercase;
 }
 
+.navbar-default {
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+  color: #FFF;
+}
+
 /* SEPARATOR STYLES */
 
 .separator-line {
@@ -98,7 +107,7 @@ h2 {
 }
 
 .autoref-link {
-  color: #2d908a;
+  color: #29b297;
 }
 
 /* Jumbotron Styles */
