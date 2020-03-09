@@ -20,8 +20,17 @@ nav a {
   max-width: 300px;
 }
 
+#portfolio {
+  text-align: center;
+}
+
 #portfolio img {
   width: 350px;
   margin-bottom: 20px;
   border-radius: 5px;
+}
+
+#portfolio a:hover {
+  background-color: #FFF;
+  opacity: 0.5;
 }
