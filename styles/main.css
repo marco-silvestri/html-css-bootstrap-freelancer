@@ -2,11 +2,24 @@
   margin-bottom: 0;
   border-radius: 0px;
   background-color: #2b3e50;
-  text-transform: uppercase;
 }
 
 nav a {
   color: #FFF;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+}
+
+.wrapper-85-w {
+  width: 75%;
 }
 
 .jumbotron {
@@ -33,4 +46,17 @@ nav a {
 #portfolio a:hover {
   background-color: #FFF;
   opacity: 0.5;
+}
+
+#about {
+  background-color: #29b297;
+}
+
+#about p {
+  color: #FFF;
+}
+
+.btn-default {
+  background-color: transparent;
+  color: #FFF;
 }
