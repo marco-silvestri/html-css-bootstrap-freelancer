@@ -65,18 +65,33 @@ h2 {
 
 /* SEPARATOR STYLES */
 
+.separator::after {
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: white; 
+}
+
 .separator-line {
   width: 100%;
   height: 2px;
   border-radius: 2px;
 }
 
-.separator-line-white {
-  background-color: #FFF;
+.separator-dark {
+  color: #333;
 }
 
-.separator-line-dark {
-  background-color: #333;
+.h2-separator .separator-color-light {
+  color: #FFF;
+}
+
+.h2-separator::after {
+  content: " ";
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #FFF;
 }
 
 /* Typography */
@@ -118,7 +133,9 @@ h2 {
 }
 
 .jumbotron img {
+  display: block;
   max-width: 300px;
+  margin: auto;
 }
 
 /* Portfolio + About Styles */
